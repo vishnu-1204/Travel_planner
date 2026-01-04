@@ -1,25 +1,28 @@
-import PackageCard from "../components/PackageCard";
-import packages from "../data/packages.json";
-import "./Home.css";
+import tours from "../data/tours.json";
+import TourCategory from "../components/toursCategory.jsx";
+import './Home.css'
 
 function Home() {
   return (
-    <section className="packages-section">
-      <h2>Popular Packages</h2>
+    <>
+      {/* SECTION TITLE */}
+     <section className="popular-wrapper">
+  <div className="popular-section">
+    <h1>Popular Tour Packages</h1>
+    <p>Handpicked destinations loved by travelers</p>
+  </div>
 
-      <div className="packages-grid">
-        {packages.map((pkg) => (
-          <PackageCard
-            key={pkg.id}
-            image={pkg.image}
-            title={pkg.title}
-            duration={pkg.duration}
-            price={pkg.price}
-          />
-        ))}
-      </div>
-    </section>
+  <div className="category-grid">
+    {tours.map((tour) => (
+      <TourCategory key={tour.id} tour={tour} />
+    ))}
+  </div>
+</section>
+
+
+    </>
   );
 }
 
 export default Home;
+

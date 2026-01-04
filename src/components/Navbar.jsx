@@ -1,7 +1,10 @@
 import './styles/Navbar.css'
 import { Link } from "react-scroll";
+import { useNavigate } from "react-router-dom";
 
 function Navbar(){
+
+   const navigate = useNavigate(null)
     return (
          <nav className="navbar">
             <div className="logo">GT Holidays</div>
@@ -16,7 +19,12 @@ function Navbar(){
                 <li>Contact</li>
             </ul>
 
-            <button className="book-btn">Book Now</button>
+           <button
+                className="book-btn"
+                onClick={() => navigate("/login")}
+            >
+                Book Now
+            </button>
         </nav>
     )
 }

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "kerala",
+    "title": "Kerala Tours",
+    "count": 20,
+    "image": "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "north-india",
+    "title": "North India Tours",
+    "count": 48,
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "goa",
+    "title": "Goa Beach Tours",
+    "count": 18,
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "international",
+    "title": "International Tour Packages",
+    "count": 362,
+    "image": "https://images.unsplash.com/photo-1506973035872-a4f23adbbbc2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "europe",
+    "title": "Europe Tour Packages",
+    "count": 144,
+    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "educational",
+    "title": "Educational Tour Packages",
+    "count": 15,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+  "id": "adventure",
+  "title": "Adventure Tour Packages",
+  "count": 32,
+  "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  }
+]
