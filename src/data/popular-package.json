@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "title": "India Tour Packages",
+    "tours": 98,
+    "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5"
+  },
+  {
+    "id": 2,
+    "title": "International Tour Packages",
+    "tours": 362,
+    "image": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b"
+  },
+  {
+    "id": 3,
+    "title": "International Honeymoon Packages",
+    "tours": 17,
+    "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57"
+  },
+  {
+    "id": 4,
+    "title": "Europe Tour Packages",
+    "tours": 144,
+    "image": "https://images.unsplash.com/photo-1508057198894-247b23fe5ade"
+  },
+  {
+    "id": 5,
+    "title": "Educational Tour Packages",
+    "tours": 15,
+    "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80"
+
+  }
+]
