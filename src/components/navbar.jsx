@@ -10,7 +10,7 @@ export default function Navbar() {
         <div className="flex items-center gap-2">
           <span className="w-2.5 h-2.5 rounded-full bg-sky-400 "></span>
           <h1 className="text-xl font-bold tracking-wide text-white">
-            TravelMate
+            Travel<span className="text-sky-400">Mate</span>
           </h1>
         </div>
 
